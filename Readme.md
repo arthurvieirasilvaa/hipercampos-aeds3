@@ -8,14 +8,19 @@
 
 ## 📖 Objetivo:
 
-O objetivo deste trabalho é resolver um problema de geometria computacional envolvendo a conexão de pontos em um plano com a condição de que os segmentos de reta, ao serem desenhados entre os pontos e duas âncoras fixas, **não se interceptem** fora das âncoras. As âncoras são representadas pelos pontos \(A = (X_A, 0)\) e \(B = (X_B, 0)\), com \(0 < X_A < X_B\).
+O objetivo deste trabalho é resolver um problema de geometria computacional envolvendo a conexão de pontos em um plano com a condição de que os segmentos de reta, ao serem desenhados entre os pontos e duas âncoras fixas, **não se interceptem** fora das âncoras. As âncoras são representadas pelos pontos \(A = (XA, 0)\) e \(B = (XB, 0)\), com \(0 < XA < XB\).
 
-Dado um conjunto de **N pontos** no plano com coordenadas \((X_i, Y_i)\), onde \(X_i > 0\) e \(Y_i > 0\), a tarefa é encontrar a **máxima quantidade de pontos** que podem ser conectados aos dois pontos âncoras **A** e **B**, sem que as linhas que ligam esses pontos se cruzem fora das âncoras.
+Dado um conjunto de **N pontos** no plano com coordenadas \((Xi, Yi)\), onde \(Xi > 0\) e \(Yi > 0\), a tarefa é encontrar a **máxima quantidade de pontos** que podem ser conectados aos dois pontos âncoras **A** e **B**, sem que as linhas que ligam esses pontos se cruzem fora das âncoras.
 
 ## 🖥️ Tecnologias
 
 - **Linguagem**: C
 - **Ambiente**: Linux
+
+## 🧠 Estratégias Utilizadas
+
+- **Algoritmo Guloso**
+- **Ordenando as coordenadas**
 
 ## 📝​ Descrição do Projeto
 
